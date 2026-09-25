@@ -1,0 +1,17 @@
+# Local runtime
+logs/
+*.log
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Dependencies (for when the Laravel app lands)
+/vendor/
+/node_modules/
